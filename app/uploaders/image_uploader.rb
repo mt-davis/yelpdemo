@@ -10,7 +10,6 @@ if Rails.env.production?
   else
     storage :file
   end
-  process :resize_to_fit => [200, 300]
   # Choose what kind of storage to use for this uploader:
   #storage :file
   #storage :fog
@@ -52,5 +51,4 @@ if Rails.env.production?
   # def filename
   #   "something.jpg" if original_filename
   # end
-
 end
