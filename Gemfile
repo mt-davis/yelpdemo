@@ -17,3 +17,4 @@ gem "fog"
 gem "figaro"
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'execjs'
+gem "mini_magick"
