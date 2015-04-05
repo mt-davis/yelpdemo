@@ -19,3 +19,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'execjs'
 gem "mini_magick"
 gem 'devise'
+gem 'searchkick'
