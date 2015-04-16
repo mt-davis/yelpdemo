@@ -1,28 +1,14 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In order to get this application running correctly, you will need to ensure that the "fog" gem is installed because the rails 
+server won't run without it. The Figaro gem was used to proect the AWS keys for deployment on Heroku. Be sure to install this gem before deployment.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: ruby 2.1.5p273 (2014-11-13 revision 48405)
 
-* System dependencies
+* System dependencies: "figaro", "fog", 'carrierwave' 'searchkick'
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please email me with any questions
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
