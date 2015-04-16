@@ -3,7 +3,6 @@
 In order to get this application running correctly, you will need to ensure that the "fog" gem is installed because the rails 
 server won't run without it. The Figaro gem was used to proect the AWS keys for deployment on Heroku. Be sure to install this gem before deployment.
 
-Things you may want to cover:
 
 * Ruby version: ruby 2.1.5p273 (2014-11-13 revision 48405)
 
